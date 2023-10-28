@@ -171,7 +171,7 @@
   justify-content: center;
 }
 .instagram a img{
-  width: 300px;
+  width: 150px;
   padding-right: 10px;
 }
 .instagram p{
@@ -180,11 +180,44 @@
   text-align: center;
 }
 .github a img{
-  width: 300px;
+  width: 150px;
   padding-right: 10px;
 }
 .github p{
   font-size: 20px;
   font-weight: 700;
   text-align: center;
+}
+
+/*Rangkuman Seminar*/
+.rangkuman-seminar{
+  margin-top: 40px;
+  background-color: #27374D;
+  color: #F5F7F8;
+  padding-left: 10px;
+  
+}
+.rangkuman-title{
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.rangkuman-title p{
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.title-seminar-sesi1{
+  margin-top: 30px;
+  font-size: 15px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.title-seminar-sesi2{
+  margin-top: 30px;
+  font-size: 15px;
+  font-weight: 700;
+  margin-bottom: 20px;
 }
