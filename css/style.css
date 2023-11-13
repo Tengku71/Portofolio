@@ -11,9 +11,11 @@
   background-repeat: no-repeat;
 }
 .img-profile img{
-  width: 250px;
+  max-width: 250px;
+  display: flex;
   border-radius: 20px;
   padding-bottom: 20px;
+  transition: all .5s linear;
 }
 .degree{
   display: flex;
@@ -42,6 +44,7 @@
   margin-top: 60px;
   width: auto;
   height: auto;
+  margin: 0 20px;
 }
 .exp-title{
   margin-top: 20px;
@@ -115,6 +118,7 @@
 .gallery-wrapper ul{
   padding-top: 20px;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
 }
 .gallery-wrapper ul li{
@@ -122,7 +126,7 @@
   padding-right: 10px;
 }
 .gallery-wrapper ul li img{
-  width: 400px;
+  max-width: 400px;
 }
 /*Project*/
 .project-title{
@@ -188,6 +192,15 @@
   font-weight: 700;
   text-align: center;
 }
+.linkedIn a img{
+  width: 150px;
+  padding-right: 10px;
+}
+.linkedIn p{
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+}
 
 /*Rangkuman Seminar*/
 .rangkuman-seminar{
@@ -195,6 +208,8 @@
   background-color: #27374D;
   color: #F5F7F8;
   padding-left: 10px;
+  margin: 20px;
+  border-radius: 20px;
   
 }
 .rangkuman-title{
@@ -220,4 +235,29 @@
   font-size: 15px;
   font-weight: 700;
   margin-bottom: 20px;
+}
+
+footer{
+  margin-top: 20px;
+  text-align: center;
+  height: 70px;
+  background-image: url("/bg/bg-header.jpg");
+}
+footer p{
+  padding-top: 10px;
+  color: white;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 850px) {
+  .img-profile img{
+    max-width: 150px;
+    border-radius: 20px;
+    padding-bottom: 20px;
+    transition: all .5s linear;
+  }
+  .gallery-wrapper ul li img{
+    width: 300px;
+  }
+
 }
